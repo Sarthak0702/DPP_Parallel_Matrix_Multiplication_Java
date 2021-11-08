@@ -1,5 +1,9 @@
 # Parallel Matrix Multiplication
 
+- Matrix Multiplication was implimented using `java.util.concurrent`'s `ExecutorService`, `Executors`, `Future` class and interface.
+- `MatrixMultParallel3` implements Matrix Multiplication columns-wise each process calculating result of block  of size (1 x N/p) 
+- `MatrixMultParallel3` implements Matrix Multiplication row-wise each process calculating result of block  of size (N/p x N)
+
 
 
 # Results
